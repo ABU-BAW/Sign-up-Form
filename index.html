@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <img src="./images/mountain.jpg" alt="background image">
+            <div class="logo">
+                <p>Tech_Verse</p>
+            </div>
+        </div>
+        <div class="main-form">
+            <div class="info">
+                <p>This is not real online service! You know you need something
+                    like this in your life to help you to realize your deepest dreams
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>Know</em> you want to.</p>
+            </div>
+            <div class="form">
+                <h3>Let's do this!</h3>
+                <form action="https://httpbin.org/post" method="post" >
+                    
+            
+                    <div>
+                        <label for="first_name">FIRST NAME
+                            <input type="text" id="first_name" name="userFirstName">
+                        </label>
+                        
+                        
+                        <label for="E-mail">EMAIL
+                            <input type="email" id="E-mail" name="userEmail">
+                        </label>
+                        
+                        
+                        <label for="Pwd">PASSWORD
+                            <input type="password" id="Pwd" name="userPassword">
+                        </label>
+                        
+                    </div>
+                    <div>
+                        
+                        <label for="last_name">LAST NAME
+                            <input type="text" id="last_name" name="userLastName">
+                        </label>
+                        
+                        
+                        <label for="telephone">PHONE NUMBER
+                            <input type="tel" id="telephone" name="userTelephone">
+                        </label>
+                        
+                        
+                        <label for="pwd">CONFIRM PASSWORD
+                            <input type="password" id="pwd">
+                        </label>
+                        
+                    </div>
+                </form>
+            </div>
+            <div class="create-account">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <span>Log in</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
