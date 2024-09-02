@@ -44,8 +44,12 @@ body{
 
 .main-form{
     width: 60%;
-    padding-left: 25px;
     background-color:#ffff;
+
+}
+
+.main-form>div{
+    padding-left: 25px;
 }
 
 form{
